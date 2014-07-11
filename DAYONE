@@ -1,0 +1,48 @@
+DAY ONE
+
+cd - change directory
+	-cd ~ -goes to home directory
+	-cd / -goes to top directory
+
+ls - show everything in current directory
+man ___ -shows all options 
+clear - clear the page (keeps the stuff above)
+q - quit
+
+drwxr-xr-x+ and stuff that look like it are permissions. read-write-execute. d in front of permissions means it is a directory. 
+three sets of permissions. Person who owns, the group, and everyone else. The letters determine what is permitted. 
+
+CREATING AND DELETING DIRECTORIES AND FILES
+mkdir - make directory
+rmdir - remove directory
+touch - create file
+rm - remove file
+rm -rf :delete an entire directory (r-recursive, f-forced [force the deletion]) NO UNDO-ING
+
+
+GIT
+git is a version control system (look at previous versions, collaborate, etc.)
+committing code is like saving the version. 
+
+GITHUB is a git repository. You can use git without it, but github is good. 
+
+To intitialize an empty git repository in a directory, use command: git init
+A git repository has a .git file when you do command ls -la (reveal hidden files). The existance of this file determines if it is a git repository or not.(remove by rm -rf .git)
+
+After initializing git, you need to commit/track files. 
+git status shows what has happened, what needs to be committed, etc. 
+
+GIT FILE STATES
+untracked: cannot be committed yet
+unstaged:
+staged:
+committed:
+
+Make files staged (ready to commit) by using command git add <file>. git add . adds the whole current directory. 
+
+use "git rm --cached <file>..." to unstage
+
+to commit: git commit -m "___"
+-m is the message. 
+
+git log: checks commits
