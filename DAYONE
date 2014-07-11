@@ -19,7 +19,7 @@ touch - create file
 rm - remove file
 rm -rf :delete an entire directory (r-recursive, f-forced [force the deletion]) NO UNDO-ING
 
-
+fiowfjweo
 GIT
 git is a version control system (look at previous versions, collaborate, etc.)
 committing code is like saving the version. 
