@@ -46,3 +46,27 @@ to commit: git commit -m "___"
 -m is the message. 
 
 git log: checks commits
+
+
+git reset --soft/hard HEAD^
+soft: reverses the commit
+hard: reverses the commit and the changes made
+^: the number of commits ago 
+
+git doesn't care about empty directories. There needs to be files to be tracked. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
