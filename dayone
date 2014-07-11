@@ -56,17 +56,12 @@ hard: reverses the commit and the changes made
 git doesn't care about empty directories. There needs to be files to be tracked. 
 
 
+in order to push and pull from github use commands:
+git push origin master
+git pull origin master
 
 
-
-
-
-
-wlfwe
-
-
-asdf
-
-
+to create a copy of it on your computer:
+git clone <url>
 
 
