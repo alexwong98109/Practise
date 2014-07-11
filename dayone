@@ -24,7 +24,7 @@ GIT
 git is a version control system (look at previous versions, collaborate, etc.)
 committing code is like saving the version. 
 
-GITHUB is a git repository. You can use git without it, but github is good. 
+GITHUB is a place to store git repositories. You can use git without it, but github is good. 
 
 To intitialize an empty git repository in a directory, use command: git init
 A git repository has a .git file when you do command ls -la (reveal hidden files). The existance of this file determines if it is a git repository or not.(remove by rm -rf .git)
